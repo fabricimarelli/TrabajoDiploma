@@ -59,10 +59,11 @@ C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyect
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.AssemblyReference.cache
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.SuggestedBindingRedirects.cache
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmMenuPrincipal.resources
-C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmSocios.resources
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.Properties.Resources.resources
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.GenerateResource.cache
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.CoreCompileInputs.cache
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.csproj.CopyComplete
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.exe
 C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.pdb
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmDatosSocio.resources
+C:\Users\fabri\OneDrive\Cursada 2022\2do cuatrimestre\Trabajo de diploma\Proyecto de Diploma\Implementacion\VISTA\obj\Debug\VISTA.frmSociosGrilla.resources

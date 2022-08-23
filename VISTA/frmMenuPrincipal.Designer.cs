@@ -29,36 +29,37 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenuPrincipal));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSocios = new System.Windows.Forms.Button();
             this.btnReservas = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.btnAviones = new System.Windows.Forms.Button();
             this.btnCursos = new System.Windows.Forms.Button();
-            this.btnPilotos = new System.Windows.Forms.Button();
+            this.btnCuotas = new System.Windows.Forms.Button();
+            this.btnReportes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnSocios
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(127, 126);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(204, 89);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "SOCIOS";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSocios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnSocios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSocios.Image = ((System.Drawing.Image)(resources.GetObject("btnSocios.Image")));
+            this.btnSocios.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSocios.Location = new System.Drawing.Point(127, 126);
+            this.btnSocios.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSocios.Name = "btnSocios";
+            this.btnSocios.Size = new System.Drawing.Size(204, 89);
+            this.btnSocios.TabIndex = 0;
+            this.btnSocios.Text = "SOCIOS";
+            this.btnSocios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSocios.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnSocios.UseVisualStyleBackColor = false;
+            this.btnSocios.Click += new System.EventHandler(this.btnSocios_Click);
             // 
             // btnReservas
             // 
             this.btnReservas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReservas.Location = new System.Drawing.Point(435, 126);
-            this.btnReservas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReservas.Margin = new System.Windows.Forms.Padding(4);
             this.btnReservas.Name = "btnReservas";
             this.btnReservas.Size = new System.Drawing.Size(195, 89);
             this.btnReservas.TabIndex = 1;
@@ -69,7 +70,7 @@
             // 
             this.btnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.Location = new System.Drawing.Point(723, 126);
-            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(195, 89);
             this.btnUsuarios.TabIndex = 2;
@@ -80,7 +81,7 @@
             // 
             this.btnAviones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAviones.Location = new System.Drawing.Point(127, 359);
-            this.btnAviones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAviones.Margin = new System.Windows.Forms.Padding(4);
             this.btnAviones.Name = "btnAviones";
             this.btnAviones.Size = new System.Drawing.Size(204, 89);
             this.btnAviones.TabIndex = 3;
@@ -91,23 +92,34 @@
             // 
             this.btnCursos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCursos.Location = new System.Drawing.Point(435, 359);
-            this.btnCursos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCursos.Margin = new System.Windows.Forms.Padding(4);
             this.btnCursos.Name = "btnCursos";
             this.btnCursos.Size = new System.Drawing.Size(195, 89);
             this.btnCursos.TabIndex = 4;
             this.btnCursos.Text = "CURSOS";
             this.btnCursos.UseVisualStyleBackColor = true;
             // 
-            // btnPilotos
+            // btnCuotas
             // 
-            this.btnPilotos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPilotos.Location = new System.Drawing.Point(723, 359);
-            this.btnPilotos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnPilotos.Name = "btnPilotos";
-            this.btnPilotos.Size = new System.Drawing.Size(195, 89);
-            this.btnPilotos.TabIndex = 5;
-            this.btnPilotos.Text = "PILOTOS";
-            this.btnPilotos.UseVisualStyleBackColor = true;
+            this.btnCuotas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCuotas.Location = new System.Drawing.Point(723, 359);
+            this.btnCuotas.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCuotas.Name = "btnCuotas";
+            this.btnCuotas.Size = new System.Drawing.Size(195, 89);
+            this.btnCuotas.TabIndex = 5;
+            this.btnCuotas.Text = "CUOTAS";
+            this.btnCuotas.UseVisualStyleBackColor = true;
+            // 
+            // btnReportes
+            // 
+            this.btnReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportes.Location = new System.Drawing.Point(435, 554);
+            this.btnReportes.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(195, 89);
+            this.btnReportes.TabIndex = 6;
+            this.btnReportes.Text = "REPORTES";
+            this.btnReportes.UseVisualStyleBackColor = true;
             // 
             // frmMenuPrincipal
             // 
@@ -116,14 +128,15 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1009, 656);
-            this.Controls.Add(this.btnPilotos);
+            this.Controls.Add(this.btnReportes);
+            this.Controls.Add(this.btnCuotas);
             this.Controls.Add(this.btnCursos);
             this.Controls.Add(this.btnAviones);
             this.Controls.Add(this.btnUsuarios);
             this.Controls.Add(this.btnReservas);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSocios);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMenuPrincipal";
@@ -135,12 +148,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSocios;
         private System.Windows.Forms.Button btnReservas;
         private System.Windows.Forms.Button btnUsuarios;
         private System.Windows.Forms.Button btnAviones;
         private System.Windows.Forms.Button btnCursos;
-        private System.Windows.Forms.Button btnPilotos;
+        private System.Windows.Forms.Button btnCuotas;
+        private System.Windows.Forms.Button btnReportes;
     }
 }
 

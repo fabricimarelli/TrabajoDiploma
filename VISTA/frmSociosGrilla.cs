@@ -10,31 +10,28 @@ using System.Windows.Forms;
 
 namespace VISTA
 {
-    public partial class frmMenuPrincipal : Form
+    public partial class frmSociosGrilla : Form
     {
-        public frmMenuPrincipal()
+        public frmSociosGrilla()
         {
             InitializeComponent();
         }
 
-
-        private void btnSocios_Click(object sender, EventArgs e)
+        private void btnAgregar_Click(object sender, EventArgs e)
         {
-
             //se localiza el formulario buscandolo entre los forms abiertos 
-            Form frmGrillaSocios = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmSociosGrilla);
+            Form frmDatosSocio = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmDatosSocio);
 
-            if (frmGrillaSocios != null)
+            if (frmDatosSocio != null)
             {
                 //si la instancia existe la pongo en primer plano
-                frmGrillaSocios.BringToFront();
+                frmDatosSocio.BringToFront();
                 return;
             }
 
             //sino existe la instancia se crea una nueva y se muestra
-            frmGrillaSocios = new frmSociosGrilla();
-            frmGrillaSocios.Show();
-
+            frmDatosSocio = new frmDatosSocio();
+            frmDatosSocio.Show();
         }
     }
 }

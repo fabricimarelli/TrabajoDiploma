@@ -56,25 +56,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDatosSocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosSocio.Designer.cs">
+      <DependentUpon>frmDatosSocio.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMenuPrincipal.Designer.cs">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSocios.cs">
+    <Compile Include="frmSociosGrilla.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSocios.Designer.cs">
-      <DependentUpon>frmSocios.cs</DependentUpon>
+    <Compile Include="frmSociosGrilla.Designer.cs">
+      <DependentUpon>frmSociosGrilla.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDatosSocio.resx">
+      <DependentUpon>frmDatosSocio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSocios.resx">
-      <DependentUpon>frmSocios.cs</DependentUpon>
+    <EmbeddedResource Include="frmSociosGrilla.resx">
+      <DependentUpon>frmSociosGrilla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
