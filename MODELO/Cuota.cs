@@ -16,6 +16,9 @@ namespace MODELO
         public decimal valorCuota { get; set; }
         public decimal total { get; set; }
         #endregion
+       
+        #region METODOS
+        #endregion
 
     }
 }

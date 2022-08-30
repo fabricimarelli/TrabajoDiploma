@@ -15,6 +15,8 @@ namespace VISTA
         public frmDatosSocio()
         {
             InitializeComponent();
+           
+
         }
 
         private void btnExaminar_Click(object sender, EventArgs e)
@@ -26,5 +28,7 @@ namespace VISTA
                 pictureBox1.Image = new Bitmap(opnfd.FileName);
             }
         }
+
+        
     }
 }

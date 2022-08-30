@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace VISTA
 {
-    public partial class frmSociosGrilla : Form
+    public partial class frmGrillaSocios : Form
     {
-        public frmSociosGrilla()
+        public frmGrillaSocios()
         {
             InitializeComponent();
         }
@@ -32,6 +32,23 @@ namespace VISTA
             //sino existe la instancia se crea una nueva y se muestra
             frmDatosSocio = new frmDatosSocio();
             frmDatosSocio.Show();
+        }
+
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            //se localiza el formulario buscandolo entre los forms abiertos 
+            Form frmDatosSocioM = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is frmDatosSocio);
+
+            if (frmDatosSocioM != null)
+            {
+                //si la instancia existe la pongo en primer plano
+                frmDatosSocioM.BringToFront();
+                return;
+            }
+
+            //sino existe la instancia se crea una nueva y se muestra
+            frmDatosSocioM = new frmDatosSocio();
+            frmDatosSocioM.Show();
         }
     }
 }

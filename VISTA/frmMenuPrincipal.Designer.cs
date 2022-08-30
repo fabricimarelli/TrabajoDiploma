@@ -65,6 +65,7 @@
             this.btnReservas.TabIndex = 1;
             this.btnReservas.Text = "RESERVAS";
             this.btnReservas.UseVisualStyleBackColor = true;
+            this.btnReservas.Click += new System.EventHandler(this.btnReservas_Click);
             // 
             // btnUsuarios
             // 

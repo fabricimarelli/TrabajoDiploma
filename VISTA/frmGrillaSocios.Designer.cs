@@ -1,6 +1,6 @@
 ﻿namespace VISTA
 {
-    partial class frmSociosGrilla
+    partial class frmGrillaSocios
     {
         /// <summary>
         /// Required designer variable.
@@ -74,6 +74,7 @@
             this.btnConsultar.TabIndex = 3;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // btnModificar
             // 
@@ -93,7 +94,7 @@
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // frmSociosGrilla
+            // frmGrillaSocios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -104,7 +105,9 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "frmSociosGrilla";
+            this.MinimumSize = new System.Drawing.Size(1106, 663);
+            this.Name = "frmGrillaSocios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Socios";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

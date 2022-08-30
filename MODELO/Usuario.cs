@@ -8,5 +8,9 @@ namespace MODELO
 {
     public class Usuario
     {
+        public int ID_usuario { get; set; }
+        public string nombreUsuario { get; set; }
+        public string password { get; set; }
+        public Persona perosna { get; set; }
     }
 }

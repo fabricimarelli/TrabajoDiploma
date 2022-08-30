@@ -17,29 +17,31 @@ namespace MODELO
         public string email { get; set; }
         public byte[] fotoPersona { get; set; }
 
-    }   //SocioPileta
+    }   
 
     public class Socio : Persona
     {
         public int ID_socio { get; set; }
         public DateTime fechaAdmision { get; set; }
-        public bool deudor { get; set; }
+        public bool deudor { get; set; }//revisar
 
     }
 
-    public class PilotoAlumno : Socio
+    public class Piloto : Socio
     {
-        public string licencia { get; set; }
-        public bool piloto { get; set; }
-        public bool alumno { get; set; }
+        public Licencia licencia { get; set; }
         public decimal horasVoladas { get; set; }
+        public string claseCMA { get; set; }
         public DateTime vencimientoCMA { get; set; }
 
     }
 
-    /*public class Alumno : Socio
+    public class Alumno : Socio
     {
-        //tipo de curso que esta realizando sacado de la lista cursos
-        public decimal horasVoladas { get; set; }
-    }*/
+        public Curso curso { get; set; }
+        //public decimal horasVoladas { get; set; } Estan en el curso
+        public string claseCMA { get; set; }
+        public DateTime vencimientoCMA { get; set; }
+        
+    }
 }

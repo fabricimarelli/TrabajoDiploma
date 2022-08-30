@@ -56,11 +56,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDatosReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosReserva.Designer.cs">
+      <DependentUpon>frmDatosReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatosVuelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosVuelo.Designer.cs">
+      <DependentUpon>frmDatosVuelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGrillaAeronaves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGrillaAeronaves.Designer.cs">
+      <DependentUpon>frmGrillaAeronaves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatosAeronave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosAeronave.Designer.cs">
+      <DependentUpon>frmDatosAeronave.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDatosSocio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDatosSocio.Designer.cs">
       <DependentUpon>frmDatosSocio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGrillaReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGrillaReservas.Designer.cs">
+      <DependentUpon>frmGrillaReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGrillaVuelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGrillaVuelos.Designer.cs">
+      <DependentUpon>frmGrillaVuelos.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -68,11 +104,11 @@
     <Compile Include="frmMenuPrincipal.Designer.cs">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSociosGrilla.cs">
+    <Compile Include="frmGrillaSocios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSociosGrilla.Designer.cs">
-      <DependentUpon>frmSociosGrilla.cs</DependentUpon>
+    <Compile Include="frmGrillaSocios.Designer.cs">
+      <DependentUpon>frmGrillaSocios.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,8 +118,8 @@
     <EmbeddedResource Include="frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSociosGrilla.resx">
-      <DependentUpon>frmSociosGrilla.cs</DependentUpon>
+    <EmbeddedResource Include="frmGrillaSocios.resx">
+      <DependentUpon>frmGrillaSocios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
